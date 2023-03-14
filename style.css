@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap');
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+counter > * {
+    font-size: 4rem;
+}
+
+.counter {
+    width: 40rem;
+    border: 1px solid var(--grey);
+    padding: 1rem;
+    background-color: var(--color-primary);
+    color: var(--white);
+    text-align: center;
+    border-radius: 30px 15px;
+}
+
+.count {
+    font-size: 4rem;
+}
+
+.button button {
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+    z-index: 1;
+}
+ 
+.button .substract {
+    background-color: var(--light-blue);
+    padding: 10px;
+    margin: 10px;
+}
+
+.button .reset {
+    background-color: var(--white);
+    padding: 10px;
+    margin: 10px;
+    color: var(--black);
+}
+
+.button .add {
+    background-color: var(--color-sec);
+    padding: 10px;
+    margin: 10px;
+}
+
